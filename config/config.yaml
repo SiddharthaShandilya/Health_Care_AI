@@ -1,0 +1,50 @@
+Data: 
+  site_name: https://en.tutiempo.net/climate
+  city_code: ws-421820.html
+
+
+artifacts: 
+  artifacts_dir: artifacts
+  data_local_dir: raw_data
+  cleaned_real_data_dir: cleaned_real_data_dir
+
+  dataset_files: 
+    data_heart_file_name: heart.csv
+    data_liver_file_name: indian_liver_patient.csv
+    data_kidney_file_name: kidney_disease.csv
+    data_diabetes_file_name: diabetes.csv
+    
+    data_malaria_dir:
+      data_malaria_dir_name: malaria_dataset_img
+      data_malaria_cell_image_dir: cell_images
+      data_malaria_parasitized_dir: Parasitized
+      data_malaria_Uninfected_dir: Uninfected
+
+    data_cancer_dir:
+      data_cancer_dir: cancer_dataset_img
+      data_cancer_train_dir: train
+      data_cancer_test_dir: test
+
+  split_data: 
+    split_data_dir: split_data_dir
+    train_data_dir: train_data_dir
+    test_data_dir: test_data_dir
+    train_data_file: train_data.csv
+    test_data_file: test_data.csv
+  
+  model: 
+    model_dir: trained_model
+    heart_model_name: heart_model.pk1
+    liver_model_name: liver_model.pk1
+    kidney_model_name: kidney_model.pk1
+    diabetes_model_name: diabetes_model.pk1
+    cancer_model_name: cancer_model.pk1
+    malalria_model_name: malalria_model.pk1
+      
+  reports: 
+    reports_dir: reports_dir
+    scores: scores.json
+    
+    graphs:
+      graphs_dir: graphs_dir
+      trained_model_graph_dir: trained_model_graph_dir

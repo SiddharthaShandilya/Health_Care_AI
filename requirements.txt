@@ -1,0 +1,9 @@
+#local libs
+-e .
+
+dvc
+pandas
+flask
+scikit-learn
+numpy
+seaborn

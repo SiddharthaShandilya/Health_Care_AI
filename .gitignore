@@ -127,3 +127,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+__pychache__
+.ipynb_checkpoints
+src.egg-info
+001_AQT_PROJECT_workspace.code-workspace
+
+# Pyre type checker
+.pyre/
+
+# vscode
+.vscode/
+.idea/
+
+
+# data processign file is shifted to src.utils.all_utils.py file
+
+env
+dummy_testing
+datasets
+src/stage_02_aqt_data_processing.py
+artifacts/raw_data/Html_Data/
+dummy_code
+artifacts/split_data_dir
+.dvc/tmp
+flask/__pycache__

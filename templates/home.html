@@ -1,0 +1,53 @@
+<!--
+T = request.form["Average_temperature"] 
+TM = request.form["Maximum_temperature"]
+Tm = request.form["Minimum_temperature"]
+SLP = request.form["Atmospheric_pressure_at_sea_level"]
+H = request.form["Average_humidity"]
+VV = request.form["Average_visibility"]
+V = request.form["Average_wind_speed"]
+VM = request.form["Maximum_wind_speed"]
+-->
+<div class="container",class="form-group">
+<h2>AIR QUALITY INDEX PREDICTION: </h2>
+<h2>Welcome</h2>
+<h3>Enter the Following parameters :</h3>
+
+<form action="/aqt_predict" method="POST">
+
+<label for="Average_temperature">Average_temperature : </label>
+<input type="text" id="Average_temperature" name="Average_temperature">
+<br>
+
+<label for="Maximum_temperature">Maximum_temperature : </label>
+<input type="text" id="Maximum_temperature" name="Maximum_temperature">
+<br>
+
+<label for="Minimum_temperature">Minimum_temperature : </label>
+<input type="text" id="Minimum_temperature" name="Minimum_temperature">
+<br>
+
+<label for="Atmospheric_pressure_at_sea_level">Atmospheric_pressure_at_sea_level : </label>
+<input type="text" id="Atmospheric_pressure_at_sea_level" name="Atmospheric_pressure_at_sea_level">
+<br>
+
+ <label for="Average_humidity">Average_humidity : </label>
+<input type="text" id="Average_humidity" name="Average_humidity">
+<br>
+
+<label for="Average_visibility">Average_visibility : </label>
+<input type="text" id="Average_visibility" name="Average_visibility">
+<br>
+
+<label for="Average_wind_speed">Average_wind_speed : </label>
+<input type="text" id="Average_wind_speed" name="Average_wind_speed">
+<br>
+
+<label for="Maximum_wind_speed">Maximum_wind_speed : </label>
+<input type="text" id="Maximum_wind_speed" name="Maximum_wind_speed">
+<br>
+
+<br>
+
+<input type="submit" value="Submit"><br><br>
+</form>
